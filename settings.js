@@ -11,7 +11,7 @@ const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
 global.owner = process.env.OWNER_NUMBER  || '94701992015' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'youre session id' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=fY91AK5I#5hmaOWqSNNohae19Ow9YxT8Z7GCBDJa4WtnYf4Umaj8' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
@@ -22,14 +22,14 @@ POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratec
 FOOTER: process.env.FOOTER || '‌👨‍💻 ＶＡＪＩＲＡ -  ＭＤ - Ｖ5 👨‍💻',    
 PREFIX: process.env.PREFIX || '.' ,
 LANG:  process.env.LANG || 'SI' ,
-ANTI_BAD: process.env.ANTI_BAD || false  ,
+ANTI_BAD: process.env.ANTI_BAD || true  ,
 AUTO_REACT:  process.env.AUTO_REACT  || false  ,    
 AUTO_TYPING:  process.env.AUTO_TYPING  || false  ,
 AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
 AUTO_READ:  process.env.AUTO_READ  || false  ,
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,       
 ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
-WORK_TYPE: process.env.WORK_TYPE || 'private' ,
+WORK_TYPE: process.env.WORK_TYPE || 'group and inbox' ,
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
 HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME,        
 INBOX_USER: process.env.INBOX_USER === undefined ? '' : process.env.INBOX_USER,
